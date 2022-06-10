@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Persian";
+  src: url(font/soltan_free.ttf);
+}
+@font-face {
+  font-family: "English";
+  src: url(font/Asvonaly.otf);
+}
+* {
+  font-family: "English";
+  background-color: rgb(0, 0, 0);
+}
+header {
+  color: aliceblue;
+  margin: 20px;
+  text-align: center;
+}
+
+main {
+  display: block;
+  margin: 20px;
+  padding: 70px;
+  text-align: center;
+}
+
+.check {
+  width: 300px;
+  background-color: rgba(57, 26, 255, 0.951);
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(255, 179, 16) 5px -5px 10px, rgb(255, 0, 0) -5px 5px 10px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+.check:hover {
+  transition: 0.5s;
+  background-color: tomato;
+  box-shadow: -10px 10px 35px palevioletred, 10px -10px 35px purple;
+}
+.checkbutton {
+  width: 300px;
+  color: white;
+  font-size: 50px;
+  background-color: rgb(43, 0, 255);
+  margin-top: 17px;
+  border-radius: 50px;
+}
+
+.checkbutton:hover {
+  transition: 0.3s;
+  text-align: center;
+  font-size: 60px;
+  color: black;
+  text-shadow: rebeccapurple 5px -5px 10px, rgb(225, 255, 0) -5px 5px 10px;
+  font-weight: bold;
+  background-color: tomato;
+  box-shadow: 10px -10px 40px palevioletred, -10px 10px 50px purple;
+  border-radius: 50px;
+  border: 50px;
+}
+.message {
+  color: aliceblue;
+  font-size: 50px;
+}
+.message {
+  font-family: "Persian";
+  src: url(font/Asvonaly.otf);
+}
+
+.again {
+  width: 100px;
+  height: 100px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  background-color: rgb(34, 255, 0);
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.again:hover {
+  transition: 12s;
+  width: 1000px;
+  height: 500px;
+  color: rgb(0, 0, 0);
+  font-size: 1px;
+  background-color: rgb(34, 255, 0);
+}
+
+.label-score{
+  color: aliceblue;
+}
